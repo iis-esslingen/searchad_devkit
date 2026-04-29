@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "searchad-devkit"
+version = "1.0.0"
+description = "SearchAD Devkit - Development toolkit for the SearchAD dataset"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Felix Embacher", email = "felix.embacher@mercedes-benz.com"},
+]
+keywords = ["autonomous-driving", "image-retrieval", "dataset", "rare-classes", "benchmark"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Computer Vision",
+]
+dependencies = [
+    "torch",
+    "opencv-python",
+    "numpy",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = ["pre-commit", "ruff"]
+
+[tool.setuptools.packages]
+find = {include = ["searchad*"]}

@@ -1,0 +1,1 @@
+python searchad/prepare_image_level_annotations.py --searchad-dir "/path/to/searchad" --split "val"
