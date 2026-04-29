@@ -272,7 +272,7 @@ DATASET_DOWNLOAD_INSTRUCTIONS = [
     {
         "name": "Lost and Found",
         "folder": "lostandfound",
-        "url": "https://wwwlehre.dhbw-stuttgart.de/~sgehrig/lostAndFoundDataset/index.html",
+        "url": "https://huggingface.co/datasets/iis-esslingen/LostAndFoundDataset",
         "instructions": "Download leftImg8bit/",
         "requires_account": False,
     },

@@ -35,7 +35,7 @@ Retrieving rare and safety-critical driving scenarios from large-scale datasets 
 
 | Dataset | Val. Set | Frames | Original Classes | SearchAD Classes | Annotations | Download Instructions |
 |:---|:---:|---:|:---:|:---:|---:|:---|
-| [Lost and Found](https://wwwlehre.dhbw-stuttgart.de/~sgehrig/lostAndFoundDataset/index.html) | | 2,239 | 42 | 18 | 2,098 | Download **leftImg8bit/** |
+| [Lost and Found](https://huggingface.co/datasets/iis-esslingen/LostAndFoundDataset) | | 2,239 | 42 | 18 | 2,098 | Download **leftImg8bit/** |
 | [WildDash2](https://www.wilddash.cc/accounts/login?next=/download) | ✓ | 5,068 | 26 | 80 | 5,032 | Download **wd_public_v2p0.zip** and **wd_both_02.zip** |
 | [ACDC](https://acdc.vision.ee.ethz.ch/download) | ✓ | 8,012 | 19 | 60 | 7,471 | Download **rgb_anon_trainvaltest.zip** |
 | [IDD Segmentation](https://idd.insaan.iiit.ac.in/accounts/login/?next=/dataset/download/) | ✓ | 10,003 | 30 | 52 | 12,192 | Download **IDD Segmentation (IDD 20k Part I) (18.5 GB)** |
