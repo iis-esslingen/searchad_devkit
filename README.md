@@ -18,7 +18,7 @@ Retrieving rare and safety-critical driving scenarios from large-scale datasets 
 
 **SearchAD** tackles the *needle-in-a-haystack* problem: locating extremely rare classes — some appearing fewer than 50 times across the entire SearchAD dataset with more than 423k frames.
 
-![Overview of SearchAD classes grouped by category](https://iis-esslingen.github.io/searchad/static/images/searchad_class_overview.svg)
+![Overview of SearchAD classes grouped by category](https://iis-esslingen.github.io/searchad/static/images/searchad_class_overview.jpg)
 
 ### Key Facts
 
